@@ -22,76 +22,7 @@
   a {
     display: block;
   }
-  
-  .sect[class*='section'] {
-    margin: 1rem 0;
-  }
 
-  .section .category {
-    display: block;
-    color: #f72210;
-    text-transform: uppercase;
-    font-weight: 900;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-  }
-  
-  .section .category .cag,
-  .section .category .cag:hover {
-    color: #f72210;
-  }
-  
-  .section .feature-title {
-    font-size: 1.4rem;
-    padding: 0.6rem 0;
-  }
-  
-  .section .title {
-    color: #000;
-    font-weight: 800;
-  }
-  
-  .section .title:hover {
-    text-decoration-color: #f72210;
-  }
-  
-  .section .feature-summary {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.2rem;
-  }
-  
-  .section .feature-list {
-    font-size: 1.1rem;
-    font-weight: 800;
-    padding: 0.7rem 0;
-    margin: 0.7rem 0;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-  }
-  
-  .section .list-link {
-    color: #000;
-  }
-  
-  .section .list-link:hover {
-    color: #f72210;
-    text-decoration: none;
-  }
-  
-  header.bordered {
-    border-bottom: 1px solid #d9d9d9;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
-  }
-  
-  /* Navigation Bar */
-  
   .navigation {
     position: fixed;
     top: 0;
@@ -163,4 +94,78 @@
   .nav-item .search i {
     margin-left: 0.5rem;
   }
+  /* main body */
+  .sect[class*='section'] {
+    margin: 1rem 0;
+  }
+
+  .section .category {
+    display: block;
+    color: #f72210;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .section .category .cag,
+  .section .category .cag:hover {
+    color: #f72210;
+  }
+  
+  .section .feature-title {
+    font-size: 1.4rem;
+    padding: 0.6rem 0;
+  }
+  
+  .section .title {
+    color: #000;
+    font-weight: 800;
+  }
+  
+  .section .title:hover {
+    text-decoration-color: #f72210;
+  }
+  
+  .section .feature-summary {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+  
+  .section .feature-list {
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 0.7rem 0;
+    margin: 0.7rem 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  
+  .section .list-link {
+    color: #000;
+  }
+  
+  .section .list-link:hover {
+    color: #f72210;
+    text-decoration: none;
+  }
+  
+  header.bordered {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .hero {
+    background-color: #fff;
+    transform: translateY(1.65%);
+  }
+  
+  
   
