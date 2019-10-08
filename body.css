@@ -1,0 +1,28 @@
+.wrapper {
+    background-color: #f4f5f6;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    display: block;
+  }
+  
+  .sect[class*='section'] {
+    margin: 1rem 0;
+  }
