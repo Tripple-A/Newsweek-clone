@@ -1,0 +1,71 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  z-index: 999;
+}
+
+.navigation .header-top {
+  background-color: #f72210;
+}
+
+.header-top > * {
+  flex-basis: 33.3%;
+}
+
+.header-top .header-links {
+  font-size: 1.1rem;
+}
+
+.header-links a:hover {
+  text-decoration: none;
+}
+
+.header-links .subscribe span {
+  color: #f72210;
+}
+
+.header-bottom {
+  background-color: #fff;
+  padding-right: 5rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header-bottom::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5.5rem;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.navbar-nav .nav-item {
+  flex: 1;
+  flex-basis: auto;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  border-right: 1px solid #d9d9d9;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 800;
+  padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f72210;
+}
+
+.header-bottom .search-item {
+  color: #333;
+}
+
+.nav-item .search i {
+  margin-left: 0.5rem;
+}
